@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #05070f;
+  font-feature-settings: "ss01", "cv11";
+}
+
+/* Article typography */
+.prose-custom h2 {
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.prose-custom h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #f1f5f9;
+}
+.prose-custom p {
+  margin-top: 1rem;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: #a8b3c7;
+}
+.prose-custom strong {
+  color: #e2e8f0;
+  font-weight: 600;
+}
+.prose-custom em {
+  color: #cbd5e1;
+}
+.prose-custom ul {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+.prose-custom li {
+  margin-top: 0.6rem;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: #a8b3c7;
+}
+.prose-custom li::marker {
+  color: #8b5cf6;
+}
+.prose-custom code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.85em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.35rem;
+  background: rgba(139, 92, 246, 0.12);
+  color: #c4b5fd;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+.prose-custom pre code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: inherit;
+}
